@@ -24,4 +24,21 @@ This is empty on purpose! Your code to build the resume will go here.
  	"skills" : skills
  };
 
- $("#main").prepend(bio.name);
+ //$("#main").prepend(bio.name);
+
+ var work = {
+
+ }
+
+ work.city = "Prescott";
+ work.name = "Safeway";
+
+ var education = {
+
+ }
+
+ education["Institution"] = "Cornell";
+ education["Class"] = "CSC315"
+
+ $("#main").prepend(work.name);
+ $("#main").prepend(education["Class"]);
